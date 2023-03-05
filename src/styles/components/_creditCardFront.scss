@@ -1,0 +1,44 @@
+.creditCardFrontContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width: 80%;
+    height: 200px;
+    top: 20vh;
+    left: 13vw;
+    background-image: url("../../assets/img/bg-card-front.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+
+    padding: 20px;
+    .topCard{
+        display: flex;
+        flex-direction: row;
+        .bigCircle{
+            height: 35px;
+            width: 35px;
+            border-radius: 30px;
+            background-color: var(--backgroundColor);
+        }
+        .littleCircle{
+            margin: 10px;
+            height: 15px;
+            width: 15px;
+            border-radius: 30px;
+            border: 1px solid var(--backgroundColor);
+        }
+    }
+    .midCard{
+        display: flex;
+        justify-content: center;
+        font-size: 29.5px;
+        padding-bottom: 15px;
+    }
+    .botCard{
+        display: flex;
+        justify-content: space-between;
+        font-size: 11px;
+    }
+}

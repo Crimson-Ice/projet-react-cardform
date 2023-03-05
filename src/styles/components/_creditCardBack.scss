@@ -1,0 +1,21 @@
+.creditCardBackContainer{
+    position: relative;
+    width: 80%;
+    height: 200px;
+    top: 25vh;
+    left: 18vw;
+    background-image: url("../../assets/img/bg-card-back.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    .cvc{
+        position: relative;
+        top: 85px;
+        left: 295px;
+        span {
+            color: white;
+            font-size: 11px;
+            letter-spacing: 1px;
+        }
+    }
+}

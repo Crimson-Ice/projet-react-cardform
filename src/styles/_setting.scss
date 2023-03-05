@@ -1,0 +1,24 @@
+:root{
+    --backgroundColor:  #fff;
+    --font: "Space Grotesk" , sans-serif;
+    --lightgray: hsl(270, 3%, 87%);
+    --color-selected-input: hsl(278, 94%, 30%);
+    --color-submit-button: hsl(278, 68%, 11%);
+    --color-hover-submit-button: hsl(276, 40%, 21%);
+    --invalid-input: hsl(0, 100%, 66%);
+    --color-gradient-1: #6448FEFF;
+    --color-gradient-2: #600594FF;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: var(--backgroundColor);
+    font-family: var(--font);
+    font-weight: 500;
+    height: 100%;
+}
